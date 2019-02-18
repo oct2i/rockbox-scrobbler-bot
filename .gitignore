@@ -1,0 +1,20 @@
+# directory-based project format
+.idea/
+
+# file-based project format:
+*.iml
+*.ipr
+*.iws
+
+# byte-compiled / optimized
+__pycache__/
+*.py[cod]
+
+# sqlite
+*.sqlite3
+
+# virtualenv
+.venv
+venv/
+ENV/
+venv.bak/
