@@ -3,3 +3,5 @@
 
 bot_token = ''
 bot_name = ''
+
+REQUEST_KWARGS={}
