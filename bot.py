@@ -126,7 +126,6 @@ def upload(bot, update):
             log_mime_type = update.message.document.mime_type
             log_user_dir = '{}/{}'.format(config.LOG_DIR, user.username)
             log_path = '{}/scrobbler.log'.format(log_user_dir)
-
             log_more = ('More about log file: {} | {} byte | {} | '
                         '{}.'.format(log_name, log_size, log_mime_type, log_user_dir))
 

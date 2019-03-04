@@ -18,6 +18,3 @@ __pycache__/
 venv/
 ENV/
 venv.bak/
-
-# temp file
-config.py
