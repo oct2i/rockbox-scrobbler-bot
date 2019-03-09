@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 """This file contains configuration the Telegram Bot."""
 
-BOT_TOKEN = 'token'
+BOT_TOKEN = 'your-token'
 
-# Settings proxy
+# Settings proxy (if Telegram is not available from you)
 REQUEST_KWARGS = {
-    'proxy_url': 'socks5://ip',
+    'proxy_url': 'socks5://your-ip',
     'urllib3_proxy_kwargs': {
-        'username': 'login',
-        'password': 'pass',
+        'username': 'your-login',
+        'password': 'your-pass',
     }
 }
 
@@ -16,14 +16,14 @@ REQUEST_KWARGS = {
 LOGGER_FILE = 'logs/bot.log'
 
 # Settings database
-DATABASE_HOST = 'host'
-DATABASE_USER = 'login'
-DATABASE_PASSWORD = 'pass'
-DATABASE_NAME = 'name'
+DATABASE_HOST = 'your-host'
+DATABASE_USER = 'your-login'
+DATABASE_PASSWORD = 'your-pass'
+DATABASE_NAME = 'your-name'
 
 # Settings Last.fm account
-API_KEY = 'key'
-API_SECRET = 'secret'
+API_KEY = 'your-key'
+API_SECRET = 'your-secret'
 
 # Settings scrobbler log file
 LOG_DIR = 'logs'
