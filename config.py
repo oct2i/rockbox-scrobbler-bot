@@ -5,7 +5,7 @@ BOT_TOKEN = 'your-token'
 
 # Settings proxy (if Telegram is not available from you)
 REQUEST_KWARGS = {
-    'proxy_url': 'socks5://your-ip',
+    'proxy_url': 'socks5://your-ip:port',
     'urllib3_proxy_kwargs': {
         'username': 'your-login',
         'password': 'your-pass',
