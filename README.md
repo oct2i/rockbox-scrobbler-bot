@@ -25,7 +25,7 @@ Python dependencies:
 
 Rest of the python dependencies see in the file [requirements.txt](requirements.txt).
 
-When configuring the bot, you need to specify data in variables with the context strings `'your-...'` in the file [config.py](config.py).
+Also note the file [config.py](config.py).
 
 
 ## References
