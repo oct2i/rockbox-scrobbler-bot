@@ -74,7 +74,7 @@ def account(bot, update):
 
 
 def account_change(bot, update):
-    query = update.callback_quer
+    query = update.callback_query
 
     text = 'Хорошо. Отправь мне новый логин и пароль.'
     bot.send_message(text=text, chat_id=query.message.chat_id)
